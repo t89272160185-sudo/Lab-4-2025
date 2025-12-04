@@ -12,11 +12,4 @@ public abstract class TrigonometricFunction implements Function {
     public double getRightDomainBorder() {
         return Double.POSITIVE_INFINITY;
     }
-
-    @Override
-    public double getFunctionValue(double x) {
-        return evaluate(x);
-    }
-
-    protected abstract double evaluate(double x);
 }

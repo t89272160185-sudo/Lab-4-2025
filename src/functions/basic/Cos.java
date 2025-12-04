@@ -2,7 +2,7 @@ package functions.basic;
 
 public class Cos extends TrigonometricFunction {
     @Override
-    protected double evaluate(double x) {
+    public double getFunctionValue(double x) {
         return Math.cos(x);
     }
 }
